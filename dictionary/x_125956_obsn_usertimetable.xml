@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="UserTimeTable" max_length="40" name="x_125956_obsn_usertimetable" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project" mandatory="true" max_length="40" name="u_choice_project" type="string">
+            <choice>
+                <element label="A" sequence="0" value="A"/>
+                <element label="B" sequence="1" value="B"/>
+                <element label="C" sequence="2" value="C"/>
+            </choice>
+        </element>
+        <element label="From" mandatory="true" max_length="40" name="u_date_time_from" type="glide_date_time"/>
+        <element label="Till" mandatory="true" max_length="40" name="u_date_time_till" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" mandatory="true" max_length="4000" name="u_string_short_description" type="string"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

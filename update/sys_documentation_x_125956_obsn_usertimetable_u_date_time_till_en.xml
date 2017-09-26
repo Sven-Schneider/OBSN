@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_date_time_till" label="Till" language="en" table="x_125956_obsn_usertimetable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_date_time_till</element>
+            <help/>
+            <hint/>
+            <label>Till</label>
+            <language>en</language>
+            <name>x_125956_obsn_usertimetable</name>
+            <plural>Tills</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 08:51:55</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>f8c0e273db590300356cf11fbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Till</sys_name>
+            <sys_package display_value="OBSN" source="x_125956_obsn">9df59963db110300356cf11fbf96194c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OBSN">9df59963db110300356cf11fbf96194c</sys_scope>
+            <sys_update_name>sys_documentation_x_125956_obsn_usertimetable_u_date_time_till_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 08:51:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
