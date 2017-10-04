@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">199301ecdb210300356cf11fbf961998</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-28 10:00:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d59301ecdb210300356cf11fbf96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="OBSN" source="x_125956_obsn">9df59963db110300356cf11fbf96194c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OBSN">9df59963db110300356cf11fbf96194c</sys_scope>
+        <sys_update_name>sp_column_d59301ecdb210300356cf11fbf96199a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-28 10:00:16</sys_updated_on>
+    </sp_column>
+</record_update>
